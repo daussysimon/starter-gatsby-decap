@@ -1,3 +1,4 @@
+local_backend: true
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
@@ -20,7 +21,8 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { name: categories, label: Categories, widget: categories }
+
   - label: "Pages"
     name: "pages"
     files:

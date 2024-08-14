@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "decap-cms-app": "^3.3.0",
+    "decap-server": "^3.1.2",
     "gatsby": "^5.13.5",
     "gatsby-plugin-decap-cms": "^4.0.4",
     "gatsby-plugin-image": "^3.13.1",
@@ -24,6 +25,7 @@
     "gatsby-plugin-sitemap": "^6.13.1",
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
+    "immutable": "^4.3.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.77.8"
